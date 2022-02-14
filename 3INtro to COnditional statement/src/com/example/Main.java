@@ -9,16 +9,21 @@ public class Main {
         System.out.println("Please enter a number less than 100: ");
         int n = scanner.nextInt();
 
-        if (n % 2 == 1) {
-            System.out.println("wierd");
-            }            else if (n % 2 == 0 && n < 5) {
-            System.out.println("Not wierd");
 
-        } else if (n % 2 == 0 &&  n < 20) {
-            System.out.println("Wierd");
+        switch (n) {
 
-        } else {
-            System.out.println("not wierd");
+            case 1 -> n%2==0
         }
+//        if (n % 2 == 1) {
+//            System.out.println("wierd");
+//            }            else if (n % 2 == 0 && n < 5) {
+//            System.out.println("Not wierd");
+//
+//        } else if (n % 2 == 0 &&  n < 20) {
+//            System.out.println("Wierd");
+//
+//        } else {
+//            System.out.println("not wierd");
+//        }
     }
 }
